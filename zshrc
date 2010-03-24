@@ -1,3 +1,10 @@
+#Gentoo options
+autoload -U compinit promptinit
+        compinit
+	promptinit; prompt gentoo
+zstyle ':completion::complete:*' use-cache 1
+
+
 . ~/.zsh/config
 . ~/.zsh/aliases
 . ~/.zsh/completion
