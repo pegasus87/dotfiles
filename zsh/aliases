@@ -1,8 +1,11 @@
 # cd
 alias ..='cd ..'
 
+#grep with color
+alias grep="grep --color=auto"
+
 # ls
-alias ls="ls -F"
+alias ls="ls -F --color=auto"
 alias l="ls -lAh"
 alias ll="ls -l"
 alias la='ls -A'
